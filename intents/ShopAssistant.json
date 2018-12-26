@@ -1,0 +1,28 @@
+{
+  "id": "a61fdff7-5e59-4a91-913a-137776be7970",
+  "name": "ShopAssistant",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ShopAssistant-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1520519297,
+  "fallbackIntent": false,
+  "events": []
+}

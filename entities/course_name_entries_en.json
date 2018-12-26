@@ -1,0 +1,33 @@
+[
+  {
+    "value": "Wordpress",
+    "synonyms": [
+      "wordpress",
+      "wp"
+    ]
+  },
+  {
+    "value": "Laravel",
+    "synonyms": [
+      "Laravel",
+      "laravel"
+    ]
+  },
+  {
+    "value": "Angular Js",
+    "synonyms": [
+      "Angular Js",
+      "Angular",
+      "angular"
+    ]
+  },
+  {
+    "value": "Drupal8",
+    "synonyms": [
+      "Drupal 8",
+      "drupal",
+      "d8",
+      "drupal8"
+    ]
+  }
+]

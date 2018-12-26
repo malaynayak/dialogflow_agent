@@ -1,0 +1,57 @@
+{
+  "id": "95a8bacf-d030-41ef-9482-c82818e98ab1",
+  "name": "course-enquiry",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "course-details",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "5c118d24-4591-463a-9fef-659bb4797ab5",
+          "required": true,
+          "dataType": "@course_name",
+          "name": "course_name",
+          "value": "$course_name.original",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please specify the course."
+            },
+            {
+              "lang": "en",
+              "value": "Which course your are interested in."
+            },
+            {
+              "lang": "en",
+              "value": "Select a course."
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1520588335,
+  "fallbackIntent": false,
+  "events": []
+}
